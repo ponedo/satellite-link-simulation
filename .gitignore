@@ -1,0 +1,7 @@
+satellite.py
+three.py
+/mymodule/*
+!/mymodule/Makefile
+!/mymodule/*[!mod].c
+!/mymodule/*[!mod].ko
+!/mymodule/reload.sh

@@ -1,0 +1,10 @@
+1   CYCLE_LEN: 10
+2   CYCLE_LEN: 10
+3   CYCLE_LEN: 5
+4   CYCLE_LEN: 5
+5   CYCLE_LEN: 20
+6   CYCLE_LEN: 5, bbr_bw_rtts: CYCLE_LEN+1 
+7   CYCLE_LEN: 5, bbr_bw_rtts: CYCLE_LEN+1 
+8   CYCLE_LEN: 5, bbr_bw_rtts: CYCLE_LEN+1, bbr_min_rtt_win_sec = 5, bbr_probe_rtt_mode_ms = 100
+9   CYCLE_LEN: 5, bbr_bw_rtts: CYCLE_LEN+1, bbr_min_rtt_win_sec = 5, bbr_probe_rtt_mode_ms = 100, pacing_gain[0] = BBR_UNIT * 3/2,  pacing_gain[1] = BBR_UNIT * 1/2
+10   CYCLE_LEN: 5, bbr_bw_rtts: CYCLE_LEN+1, bbr_min_rtt_win_sec = 5, bbr_probe_rtt_mode_ms = 100, pacing_gain[0] = BBR_UNIT * 3/2,  pacing_gain[1] = BBR_UNIT * 1/2
